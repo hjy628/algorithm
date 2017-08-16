@@ -153,6 +153,28 @@ public class Link {
 
 
     /**
+     *   @Author
+     *   @Description   反转链表
+     *   @Date: 下午3:40 17-8-16
+     */
+    public void reverse(){
+        Node temp = first;
+        last= temp;
+        Node next = first.getNext();
+        for (int i = 0; i < size - 1; i++) {
+            Node nextNext = next.getNext(); //下下个
+            next.setNext(temp);
+            temp = next;
+            next = nextNext;
+        }
+        last.setNext(null);
+        first = temp;
+    }
+
+
+
+
+    /**
      * @Author
      * @Description 获取指定下标元素
      * @Param index
