@@ -2,6 +2,9 @@ package cn.hjy.alogrithm.ch02;
 
 /**
  * Created by hjy on 17-8-16.
+ * 栈可用于逆序输出，语法检查，符号成对出现，以及数制转换（将十进制的数转换为2-9的任意进制的数）
+ * 求余法，除以8,记录余数，一直等到商为0位置，最后将余数到这些出来就可以
+ * 100%8 = 12-4 push4 12%8 = 1-4 push4 1%8 0-1 push1 poppoppop=144
  */
 public class StackTest {
 
