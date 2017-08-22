@@ -3,6 +3,11 @@ package cn.hjy.alogrithm.ch04;
 /**
  * Created by hjy on 17-8-21.
  * 顺序查找
+ *
+ *
+ * ASL(Average Search Length,平均查找长度)
+ * 需要和要查找的key进行比较的期望次数,被成为查找算法的平均查找长度
+ * 查找成功时的ASL的计算公式为ASL=Pi*Ci 其中Pi为查找表中第i个元素的概率,Ci为找到第i个元素时已经比较过得次数
  */
 public class SequentialSearch {
 
