@@ -2,6 +2,8 @@ package cn.hjy.alogrithm.ch04;
 
 /**
  * Created by hjy on 17-8-23.
+ * 杨氏矩阵里面的数：有一个m行n列的矩阵，有个数组array[k],其中k<=m*n,然后把array[k]中的元素填充到矩阵中
+ * 规则是行递增、列递增，如果最后有未填充的空间，则都填充为^
  */
 public class YangSearchTest {
 
